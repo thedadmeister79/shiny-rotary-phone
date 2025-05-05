@@ -1,1 +1,6 @@
-
+services:
+  - type: web
+    name: mp3-splitter
+    env: python
+    buildCommand: "apt-get update && apt-get install -y ffmpeg && pip install -r requirements.txt"
+    startCommand: "streamlit run mp3_splitter_app.py --server.port $PORT"
