@@ -5,7 +5,7 @@ import tempfile
 from zipfile import ZipFile
 from math import floor
 
-st.title("🎵 MP3 Splitter: Custom Track Count per File")
+st.title("🎵 MP3 Splitter ver 2: Custom Track Count per File")
 
 st.markdown("Upload MP3 files, set artist/album names individually, and choose how many tracks each file should be split into.")
 
